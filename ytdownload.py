@@ -9,8 +9,8 @@ yt = YouTube(ytLink)
 print("Title: ", yt.title)
 print("Number of views: ", yt.views)
 
-#ytDownload = yt.streams.get_lowest_resolution()
+ytDownload = yt.streams.get_lowest_resolution()
 
-#print("Downloading...")
+print("Downloading...")
 
-#ytDownload.download("/Users/amirulhossain/Desktop")
+ytDownload.download("/Users/amirulhossain/Desktop")
